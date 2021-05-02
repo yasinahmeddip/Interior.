@@ -1,0 +1,497 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* font Family
+
+	font-family: 'Poppins', sans-serif;
+
+*/
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/*********************
+	Header section 
+**********************/
+header{
+	width: 100%;
+	position: absolute;
+} 
+.nav-item{
+	margin: 0px 20px;
+}
+.nav-item a{
+	color: white !important;
+}
+.nav-item a:hover{
+	color: #FDAE5C !important;
+}
+.d-flex{
+	margin: 0px 20px;
+}
+.d-flex a{
+	color: white;
+	list-style: none;
+	font-weight: 400;
+	text-decoration: none;
+}
+.d-flex a::before{
+    content: '';
+    width: 73px;
+    height: 2px;
+    position: absolute;
+    background: #FFD35A;
+    top: 64%;
+}
+/*********************
+	Banner section 
+**********************/
+.banner{
+	padding: 80px 0px;
+	width: 100%;
+	background: url(../img/banner2.png)no-repeat center ;
+	background-size: cover;
+	height: 100vh;
+	
+}
+.banner-text{
+	margin-right: 52px;
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-text h2{
+	font-weight: bold;
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 60px;
+	width: 85%;
+}
+.banner-text button{
+	background: #FFE8C3;
+    color: #001D38;
+    display: inline-block;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.banner-text button:hover {
+	background: black;
+    color: white;
+    display: inline-block;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    letter-spacing: 2px;
+	border-radius: 20px 10px;
+}
+/*********************
+	category section 
+**********************/
+.category{
+	width: 100%;
+}
+.cat-box{
+	display: flex;
+}
+.item{
+	flex-grow: 1;
+	padding: 80px;
+}
+
+.content{
+	margin:	0px 42px;
+}
+.content h2{
+	color: #001D38;
+	font-weight: 500;
+	font-size: 30px;
+	position: relative;
+}
+.content h2::before{
+	content:'';
+	width: 32px;
+	height: 2px;
+	position: absolute;
+	background: #FFD35A;
+	left: -50px;
+    top: 50%;
+}
+.content p{
+	color: white;
+	margin-bottom: 80px;
+}
+.serial{
+
+}
+.serial h1{
+	font-size: 160px;
+	font-weight: 600;
+	color: #ececec;
+}
+.s1,.s2,.s3{
+	background: white;
+}
+.s1:hover .content p,.s2:hover .content p,.s3:hover .content p{
+	color: white;
+}
+.s1:hover{
+	background: url(../img/planing.png) no-repeat center;
+	position: relative;
+	background-size: cover;
+}
+.s2:hover{
+	background: url(../img/architecture.png)no-repeat center;
+	position: relative;
+	background-size: cover;
+}
+.s3:hover{
+	background: url(../img/design.png)no-repeat center;
+	position: relative;
+	background-size: cover;
+}
+.item:hover .content h2{
+	color: white;
+}
+.s1:hover::before, .s2:hover::before, .s3:hover::before{
+	content: '';
+	position: absolute;
+	opacity: 0.6;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+/*********************
+	our Work section 
+**********************/
+.our-work{
+	width: 100%;
+	background: #f5fbff;
+	padding: 150px 0px 200px 0px;
+}
+.our-work h1{
+	font-size: 50px;
+	font-weight: 500;
+	color: #001D38;
+	margin-bottom: 140px;
+}
+.our-item{
+	margin-top: -253px;
+	margin-bottom: 80px;
+}
+.work-details{
+
+}
+.work-details h1{
+	font-size: 30px;
+    font-weight: 500;
+    color: #001D38;
+}
+.work-details p{
+	color: #596672;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+.work-details button{
+	background: #001D38;
+    color: white;
+    display: inline-block;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: 500;
+	border: 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.work-details button:hover {
+	background: white;
+    color: black;
+    display: inline-block;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    letter-spacing: 2px;
+	border-radius: 20px 10px;
+	border: 1px solid black;
+}
+.col-md-5.dtl, .col-md-6 .dtlt{
+	display: flex;
+    align-items: center;
+}
+.our-items{
+	margin: 80px 0px;
+}
+/*************************************
+	Professional and creative section 
+**************************************/
+.Professional{
+	background: #F5FBFF;
+
+}
+.Profession-right{
+	width: 67%;
+}
+.Profession-right h1{
+	font-size: 36px;
+    line-height: 42px;
+	font-size: 50px;
+    font-weight: 500;
+    color: #001D38;
+    padding-bottom: 0;
+}
+.Profession-right p{
+	margin-bottom: 30px;
+}
+.col-md-6.Profess{
+	display: flex;
+	align-items: center;
+}
+.about-us{
+	margin: 0;
+	padding: 0;
+}
+.about-us li{
+	list-style-type: none;
+	margin-bottom: 32px;
+}
+.about-us li h5{
+	font-size: 16px;
+    color: #001D38;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.about-us li .line1{
+	height: 2px;
+	width: 60%;
+	background: #001D38;
+}
+.about-us li .line2{
+	height: 2px;
+	width: 65%;
+	background: #001D38;
+}
+.about-us li .line3{
+	height: 2px;
+	width: 80%;
+	background: #001D38;
+}
+.Profession-right button{
+	background: #001D38;
+    color: white;
+    display: inline-block;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: 500;
+	border: 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+
+.Profession-right button:hover {
+	background: white;
+    color: black;
+    display: inline-block;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    letter-spacing: 2px;
+	border-radius: 20px 10px;
+	border: 1px solid black;
+}
+/*************************************
+	Slider 2 section 
+**************************************/
+.slider-2{
+	height: 60vh;
+	padding: 100px 100px;
+	background: url(../img/testmonial.png)no-repeat center;
+	background-size: cover;
+	text-align: center;
+
+}
+.slider-2 h1 img{
+
+}
+.slider-2 p{
+    color: #fff;
+    font-weight: 20px;
+    font-size: 20px;
+    line-height: 15px;
+}
+.slider-2 img{
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.slider-2 h3{
+	color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.slider-2 span{
+	font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.owl-carousel .owl-item img{
+
+}
+/*************************************
+	Instagram section 
+**************************************/
+.Instagram{
+	text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.Insta-area h1{
+	margin-top: 50px;
+	font-size: 45px;
+    font-weight: 500;
+    color: #001D38;
+}
+.Insta-area img{
+	margin: 20px;
+}
+/*************************************
+	Mail-us section 
+**************************************/
+.mail-us{
+	background: #001D38;
+}
+.mail{
+	padding: 80px 0px;
+	border-bottom: 1px solid #334A60;
+}
+.mail h3, h2, h6{
+	color: white;
+}
+.mail h1, h2{
+	font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 52px;
+    margin-bottom: 0;
+}
+.mail h3{
+	width: 60%;
+}
+.mail h3 span{
+color: #FFD35A;
+}
+.mails{
+	text-align: end;
+}
+/*************************************
+	Address section 
+**************************************/
+.address{
+	padding: 80px 0px;
+}
+
+.address h3{
+	color: white;
+	margin-bottom: 30px;
+}
+.add li, .adds li{
+	list-style: none;
+}
+.add, .adds{
+	margin: 0;
+	padding: 0;
+}
+.add li a, .adds li a, .Subscrib p{
+	text-decoration: none;
+	color: #D5D5D5;
+	font-weight: 400;
+}
+.add li a:hover{
+	color: #FDAE5C !important;
+}
+.Subscrib form{
+	position: relative;
+    margin-bottom: 80px;
+}
+.Subscrib form input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    border: 1px solid #334A60;
+    border-radius: 30px;
+    padding-right: 130px;
+	cursor: pointer;
+}
+.Subscrib button{
+    position: absolute;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #001D38;
+    background: #FFE8C3;
+    padding: 10px;
+    padding: 0 22px;
+    cursor: pointer;
+    border-radius: 30px;
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Subscrib button:hover {
+    position: absolute;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+	background: white;
+    color: black;
+    padding: 10px;
+    padding: 0 22px;
+    cursor: pointer;
+    border-radius: 30px;
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Subscrib p{
+	margin-top: 30px;
+}
+/*************************************
+	Footer section 
+**************************************/
+.foott{
+	padding: 40px 0px;
+	background: #001D38;
+	text-align: center;
+}
+.foot p{
+	font-size: 14px;
+    color: #919191;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.foot p span{
+	color: #FFE8C3;
+}

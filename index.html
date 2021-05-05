@@ -25,7 +25,6 @@
     <body>
         <!-- Header section code Start from here -->
     <header>
-        
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid">
@@ -66,24 +65,59 @@
 
         <!-- Banner section Start end from here -->
         
-        <section class="banner">
-            <div class="container">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
+<section class="banner">
+    <div class="Section-slider">
+        <div class="owl-carousel owl-theme">
+            <div class="slider1 slide">
+                <div class="container">
+                    <div class="Content">
+                        <h2>Interior Design Solution For your Business</h2>
+                        <button>View Works</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider2 slide">
+                <div class="container">
+                    <div class="Content">
+                        <h2>Interior Design Solution For your Business</h2>
+                        <button>View Works</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        <!-- <div class="owl-carousel owl-theme">
+            <section class="banner">
+                    <div class="item1">
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-md-10">
                                 <div class="banner-text">
                                     <h2>Interior Design Solution For your Business</h2>
                                     <button>View Works</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4"></div>
+                        <div class="col-md-2"></div>
                     </div>
-                </div>
+                    <div class="item2">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="banner-text">
+                                    <h2>Interior Design Solution For your Business</h2>
+                                    <button>View Works</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
                 
-            </div>
-        </section>
+            </section>
+        </div> -->
         <!-- Banner section Start end from here -->
 <!-- Category section Start Start from here -->
 <section class="category">
@@ -229,18 +263,37 @@
 <!-- Professional and creative section end from here -->
 <!-- Slider section 2 Start from here -->
 <section class="slider-2">
-    <div class="slid">
-        <h1><img src="img/quote.png" alt=""></h1>
-                    <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor</p>
-                        <p>sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.</p>
-                        <p>Fusce ac mattis nulla. Morbi eget ornare dui.</p>
-                    <img src="img/slider2.png" alt="">
-                    <h3>Robert Thomson</h3>
-                    <span>Business Owner</span>
-        
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="slids">
+                        <h1><img src="img/quote.png" alt=""></h1>
+                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttito sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.Fusce ac mattis nulla. Morbi eget ornare dui</p>
+                        <img src="img/slider2.png" alt="">
+                        <h3>Robert Thomson</h3>
+                        <h6>Business Owner</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slids">
+                        <h1><img src="img/quote.png" alt=""></h1>
+                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttito sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.Fusce ac mattis nulla. Morbi eget ornare dui</p>
+                        <img src="img/slider2.png" alt="">
+                        <h3>Robert Thomson</h3>
+                        <h6>Business Owner</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slids">
+                        <h1><img src="img/quote.png" alt=""></h1>
+                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttito sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.Fusce ac mattis nulla. Morbi eget ornare dui</p>
+                        <img src="img/slider2.png" alt="">
+                        <h3>Robert Thomson</h3>
+                        <h6>Business Owner</h6>
+            </div>
+        </div>
     </div>
 </section>
-</div>
+
 
 <!-- Slider section 2 end from here -->
 <!-- Instagram section 2 Start from here -->
@@ -328,8 +381,12 @@
 <script>
     $('.owl-carousel').owlCarousel({
     loop:true,
+    dots:false,
     margin:10,
     nav:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
     responsive:{
         0:{
             items:1

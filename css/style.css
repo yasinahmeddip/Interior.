@@ -591,11 +591,11 @@ header{
 }
 
 /* Add space after the pages section */
-#pages.category{ margin-bottom: 60px; }
+#pages.category{ margin-bottom: 0; }
 
 /* Laptop L (1200px–1440px): make #pages category smaller */
 @media (min-width: 1200px) and (max-width: 1440px){
-  #pages.category{ margin-bottom: 48px; }
+  #pages.category{ margin-bottom: 0; }
   #pages.category .item{ padding: 36px; }
   #pages.category .content{ margin: 0 16px; }
   #pages.category .content h2{ font-size: 26px; }
@@ -605,7 +605,27 @@ header{
 
 /* Specifically ensure spacing on 1440px-wide laptops/desktops */
 @media (min-width: 1440px) and (max-width: 1599.98px){
-  #pages.category{ margin-bottom: 60px; }
+  #pages.category{ margin-bottom: 0; }
+}
+
+/* Mobile S: shrink pages section even more */
+@media (max-width: 575.98px){
+  #pages.category{ margin-bottom: 0; }
+  #pages.category .item{ padding: 4px; }
+  #pages.category .content{ margin: 0 4px; }
+  #pages.category .content h2{ font-size: 12px; line-height: 1.2; }
+  #pages.category .content p{ font-size: 10px; margin-bottom: 8px; }
+  #pages.category .serial h1{ font-size: 18px; }
+}
+
+/* Mobile M/L: compact sizing, smaller */
+@media (min-width: 576px) and (max-width: 767.98px){
+  #pages.category{ margin-bottom: 0; }
+  #pages.category .item{ padding: 6px; }
+  #pages.category .content{ margin: 0 6px; }
+  #pages.category .content h2{ font-size: 14px; line-height: 1.2; }
+  #pages.category .content p{ font-size: 11px; margin-bottom: 10px; }
+  #pages.category .serial h1{ font-size: 22px; }
 }
 /*************************************
 	Mail-us section F
@@ -735,3 +755,5 @@ color: #FFD35A;
 .foot p span{
 	color: #FFE8C3;
 }
+/* Consistent spacing below the Professional section on all screens */
+.Professional{ margin-bottom: 60px; }

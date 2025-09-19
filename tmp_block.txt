@@ -1,0 +1,81 @@
+                </li>
+                <li>
+                    <h5>3D Design</h5>
+                    <div class="line2"></div>
+                </li>
+                <li>
+                    <h5>Interior</h5>
+                    <div class="line3"></div>
+                </li>
+            </ul>
+            <button>About Us</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Professional and creative section end from here -->
+<!-- Slider section 2 Start from here -->
+<section class="slider-2">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="slids">
+                        <div class="overlay"></div>
+                        <h1><img src="img/quote.png" alt=""></h1>
+                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttito sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.Fusce ac mattis nulla. Morbi eget ornare dui</p>
+                        <img src="img/slider2.png" alt="">
+                        <h3>Robert Thomson</h3>
+                        <h6>Business Owner</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slids">
+                        <div class="overlay"></div>
+                        <h1><img src="img/quote.png" alt=""></h1>
+                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttito sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.Fusce ac mattis nulla. Morbi eget ornare dui</p>
+                        <img src="img/slider2.png" alt="">
+                        <h3>Robert Thomson</h3>
+                        <h6>Business Owner</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slids">
+                        <div class="overlay"></div>
+                        <h1><img src="img/quote.png" alt=""></h1>
+                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttito sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.Fusce ac mattis nulla. Morbi eget ornare dui</p>
+                        <img src="img/slider2.png" alt="">
+                        <h3>Robert Thomson</h3>
+                        <h6>Business Owner</h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Slider section 2 end from here -->
+<!-- Instagram section 2 Start from here -->
+<section id="blog" class="Instagram">
+<div class="Insta-area">
+    <h1>@Instagram</h1>
+    <div class="insta-images">
+        <img src="img/spfa.png" alt="">
+        <img src="img/tv.png" alt="">
+        <img src="img/resturent.png" alt="">
+    </div>
+</div>
+</section>
+<!-- Instagram section end from here -->
+<!-- Mail section start from here -->
+<section id="contact" class="mail-us">
+    <div class="container">
+        <div class="mail">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Have any project or query? Just say hello <span>Mail Us</span></h3>
+                </div>
+                <div class="col-md-6 mails">
+                    <h2>+10 673 563 629</h2>
+                    <h6>support@interior.com</h6>
+                </div>
+            </div>
+        </div>
+        <div class="address">

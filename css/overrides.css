@@ -1,0 +1,106 @@
+/* Spacing overrides */
+/* Extra-tight spacing for Contact (mail-us) section */
+.mail-us .mail{ padding: 20px 0; }
+.mail-us .address{ padding: 20px 0; }
+.mail-us .Subscrib form{ margin-bottom: 20px; }
+.mail-us .address h3{ margin-bottom: 12px; }
+.mail-us .add, .mail-us .adds{ margin: 0; padding: 0; }
+.mail-us .add li, .mail-us .adds li{ margin-bottom: 6px; }
+
+/* Mobile phones: even tighter + layout tweaks */
+@media (max-width: 575.98px){
+  .mail-us .mail{ padding: 16px 0; }
+  .mail-us .address{ padding: 16px 0; }
+  .mail-us .Subscrib form{ margin-bottom: 16px; }
+  /* Make texts smaller in the contact header */
+  .mail-us .mail h3{ width: 100%; font-size: 16px; line-height: 1.35; margin-bottom: 8px; }
+  .mail-us .mails h2{ font-size: 18px; margin: 0; }
+  .mail-us .mails h6{ font-size: 12px; margin: 0; }
+
+  /* Put Services and Company side-by-side */
+  .mail-us .address .row{ display: flex; flex-wrap: wrap; }
+  .mail-us .address .row .col-md-4{ flex: 1 1 100%; max-width: 100%; }
+  .mail-us .address .row .col-md-2{ flex: 1 1 50%; max-width: 50%; margin-top: 8px; }
+
+  /* Slightly smaller fonts for these two columns */
+  .mail-us .address h3{ font-size: 16px; margin-bottom: 8px; }
+  .mail-us .add li, .mail-us .adds li{ margin-bottom: 4px; }
+  .mail-us .add li a, .mail-us .adds li a{ font-size: 12px; }
+
+  /* Subscribe block tweaks */
+  .mail-us .Subscrib h3{ font-size: 16px; margin-bottom: 8px; }
+  .mail-us .Subscrib form input{ height: 40px; padding-left: 12px; padding-right: 100px; font-size: 13px; }
+  .mail-us .Subscrib button{ height: 34px; top: 3px; right: 3px; padding: 0 16px; font-size: 12px; }
+  .mail-us .Subscrib p{ font-size: 12px; margin-top: 12px; }
+}
+
+/* Small tablets: keep side-by-side for Services and Company */
+@media (min-width: 576px) and (max-width: 767.98px){
+  .mail-us .address .row{ display: flex; flex-wrap: wrap; }
+  .mail-us .address .row .col-md-4{ flex: 1 1 100%; max-width: 100%; }
+  .mail-us .address .row .col-md-2{ flex: 1 1 50%; max-width: 50%; margin-top: 10px; }
+  .mail-us .address .row .col-md-2 h3{ font-size: 17px; }
+  .mail-us .address .row .col-md-2 .add li a{ font-size: 14px; }
+  /* Slightly smaller top header texts on small tablets too */
+  .mail-us .mail h3{ width: 100%; font-size: 18px; line-height: 1.4; margin-bottom: 10px; }
+  .mail-us .mails h2{ font-size: 20px; }
+  .mail-us .mails h6{ font-size: 13px; }
+  .mail-us .Subscrib h3{ font-size: 17px; }
+  .mail-us .Subscrib form input{ height: 44px; padding-left: 14px; padding-right: 110px; font-size: 14px; }
+  .mail-us .Subscrib button{ height: 36px; top: 4px; right: 4px; padding: 0 18px; font-size: 13px; }
+}
+
+/* Footer: reduce all padding (top/bottom and sides via container) */
+.foott{ padding: 16px 0; }
+.foott .container{ padding-left: 8px; padding-right: 8px; }
+
+@media (max-width: 575.98px){
+  .foott{ padding: 12px 0; }
+  .foott .container{ padding-left: 6px; padding-right: 6px; }
+}
+
+/* Instagram section: tighter spacing and smaller on mobile */
+.Instagram{ padding-top: 60px; padding-bottom: 100px; }
+.Insta-area h1{ margin-top: 24px; }
+
+@media (max-width: 575.98px){
+  .Instagram{ padding-top: 20px; padding-bottom: 28px; }
+  .Insta-area{ gap: 8px; }
+  .Insta-area h1{ font-size: 18px; margin-top: 6px; }
+  .insta-images{ gap: 8px; }
+  .insta-images img{ width: clamp(48px, 24vw, 96px); }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+  .Instagram{ padding-top: 28px; padding-bottom: 40px; }
+  .Insta-area h1{ font-size: 22px; margin-top: 10px; }
+  .insta-images{ gap: 10px; }
+  .insta-images img{ width: clamp(56px, 22vw, 110px); }
+}
+
+/* Slider-2 (testimonials): clean sizing + mobile tuning */
+.slider-2{ height: auto; padding: 48px 0; }
+.slider-2 .slids{ min-height: auto; }
+.slider-2 p{ width: 70%; line-height: 1.6; font-size: 18px; }
+
+/* Phones */
+@media (max-width: 575.98px){
+  .slider-2{ padding: 24px 0; }
+  .slider-2 .slids{ min-height: auto; }
+  .slider-2 p{ width: 88%; font-size: 13px; line-height: 1.5; margin: 8px auto; }
+  .slider-2 h3{ font-size: 14px; margin-bottom: 6px; }
+  .slider-2 h6{ font-size: 12px; }
+  .slider-2 img{ height: 42px; margin: 12px 0; }
+  .slider-2 .owl-carousel .owl-nav .owl-prev,
+  .slider-2 .owl-carousel .owl-nav .owl-next{ font-size: 36px !important; height: 36px; width: 36px; }
+  .slider-2 .owl-carousel .owl-nav .owl-prev{ left: 10px; }
+  .slider-2 .owl-carousel .owl-nav .owl-next{ right: 10px; }
+}
+
+/* Small tablets */
+@media (min-width: 576px) and (max-width: 767.98px){
+  .slider-2{ padding: 32px 0; }
+  .slider-2 p{ width: 80%; font-size: 15px; }
+  .slider-2 .owl-carousel .owl-nav .owl-prev,
+  .slider-2 .owl-carousel .owl-nav .owl-next{ font-size: 42px !important; height: 42px; width: 42px; }
+}

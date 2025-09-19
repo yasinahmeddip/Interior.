@@ -1,0 +1,81 @@
+	border-radius: 20px 10px;
+	border: 1px solid black;
+}
+/*************************************
+	Slider 2 section 
+**************************************/
+.slider-2{
+	/* let mobile change this to auto */
+	height: 77vh;
+	background: url(../img/testmonial.png)no-repeat center;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+}
+.slider-2 h1 img{
+}
+.slider-2 p{
+	color: #fff;
+    font-weight: 20px;
+    font-size: 20px;
+    line-height: 15px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    line-height: 32px;
+}
+.slider-2 img{
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.slider-2 h3{
+	color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.slider-2 h6{
+	font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+.slids img{
+	width: auto !important;
+	display: initial !important;
+}
+.slids{ position: relative; }
+.slids > *:not(.overlay){ position: relative; z-index: 1; }
+.slids .overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: 0;
+}
+/* Ensure testimonial slide has adequate height on desktop */
+.slider-2 .slids{ min-height: 77vh; }
+.owl-nav {
+	margin: 0 !important;
+}
+.slider-2 .owl-carousel .owl-nav .owl-prev, .slider-2 .owl-carousel .owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	color: #fff !important;
+	font-size: 50px !important;
+	font-weight: 100 !important;
+	transform: translateY(-50%);
+	height: 50px;
+	width: 50px;
+	line-height: 35px;
+}
+.slider-2 .owl-carousel .owl-nav{ position: relative; z-index: 2; }
+.slider-2 .owl-carousel .owl-nav .owl-prev {
+	left: 5%;
+}
+.slider-2 .owl-carousel .owl-nav .owl-next {
+	right: 5%;
+}
+/*************************************

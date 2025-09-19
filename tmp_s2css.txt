@@ -1,0 +1,39 @@
+    font-weight: 400;
+    color: #fff;
+}
+.slids img{
+	width: auto !important;
+	display: initial !important;
+}
+.slids{ position: relative; }
+.slids > *:not(.overlay){ position: relative; z-index: 1; }
+.slids .overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: 0;
+}
+/* Ensure testimonial slide has adequate height on desktop */
+.slider-2 .slids{ min-height: 77vh; }
+.owl-nav {
+	margin: 0 !important;
+}
+.slider-2 .owl-carousel .owl-nav .owl-prev, .slider-2 .owl-carousel .owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	color: #fff !important;
+	font-size: 50px !important;
+	font-weight: 100 !important;
+	transform: translateY(-50%);
+	height: 50px;
+	width: 50px;
+	line-height: 35px;
+}
+.slider-2 .owl-carousel .owl-nav{ position: relative; z-index: 2; }
+.slider-2 .owl-carousel .owl-nav .owl-prev {
+	left: 5%;
+}
+.slider-2 .owl-carousel .owl-nav .owl-next {
+	right: 5%;

@@ -1,0 +1,47 @@
+}
+.col-md-5.dtl, .col-md-6 .dtlt{
+	display: flex;
+    align-items: center;
+}
+.our-items{
+	margin: 80px 0px;
+}
+/*************************************
+	Professional and creative section 
+**************************************/
+.Professional{
+	background: #F5FBFF;
+
+}
+.Profession-right{
+	width: 67%;
+}
+.Profession-right h1{
+	font-size: 36px;
+    line-height: 42px;
+	font-size: 50px;
+    font-weight: 500;
+    color: #001D38;
+    padding-bottom: 0;
+}
+.Profession-right p{
+	margin-bottom: 30px;
+}
+.col-md-6.Profess{
+	display: flex;
+	align-items: center;
+}
+.about-us{
+	margin: 0;
+	padding: 0;
+}
+.about-us li{
+	list-style-type: none;
+	margin-bottom: 32px;
+}
+.about-us li h5{
+	font-size: 16px;
+    color: #001D38;
+    font-weight: 500;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,4 @@
+268:<section class="slider-2">
+271:            <div class="slids">
+281:            <div class="slids">
+291:            <div class="slids">

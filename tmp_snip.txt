@@ -1,0 +1,101 @@
+.Content button:hover{
+	background: black;
+    color: white;
+    display: inline-block;
+    padding: 19px 50px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    letter-spacing: 2px;
+	border-radius: 20px 10px;
+}
+/*********************
+	category section 
+**********************/
+.category{
+	width: 100%;
+}
+.cat-box{
+	display: flex;
+}
+.item{
+	flex-grow: 1;
+	padding: 80px;
+}
+
+.content{
+	margin:	0px 42px;
+}
+.content h2{
+	color: #001D38;
+	font-weight: 500;
+	font-size: 30px;
+	position: relative;
+}
+.content h2::before{
+	content:'';
+	width: 32px;
+	height: 2px;
+	position: absolute;
+	background: #FFD35A;
+	left: -50px;
+    top: 50%;
+}
+.content p{
+	color: white;
+	margin-bottom: 80px;
+}
+.serial{
+
+}
+.serial h1{
+	font-size: 160px;
+	font-weight: 600;
+	color: #ececec;
+}
+.s1,.s2,.s3{
+	background: white;
+}
+.s1:hover .content p,.s2:hover .content p,.s3:hover .content p{
+	color: white;
+}
+.s1:hover{
+	background: url(../img/planing.png) no-repeat center;
+	position: relative;
+	background-size: cover;
+}
+.s2:hover{
+	background: url(../img/architecture.png)no-repeat center;
+	position: relative;
+	background-size: cover;
+}
+.s3:hover{
+	background: url(../img/design.png)no-repeat center;
+	position: relative;
+	background-size: cover;
+}
+.item:hover .content h2{
+	color: white;
+}
+.s1:hover::before, .s2:hover::before, .s3:hover::before{
+	content: '';
+	position: absolute;
+	opacity: 0.6;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+/*********************
+	our Work section 
+**********************/
+.our-work{
+	width: 100%;
+	background: #f5fbff;
+	padding: 150px 0px 200px 0px;
+}
+.our-work h1{
+	font-size: 50px;
+	font-weight: 500;
+	color: #001D38;

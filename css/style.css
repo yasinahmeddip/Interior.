@@ -589,6 +589,24 @@ header{
   .navbar .nav-link{ font-size: 18px; padding: 6px 12px; }
   .d-flex a{ font-size: 18px; }
 }
+
+/* Add space after the pages section */
+#pages.category{ margin-bottom: 60px; }
+
+/* Laptop L (1200px–1440px): make #pages category smaller */
+@media (min-width: 1200px) and (max-width: 1440px){
+  #pages.category{ margin-bottom: 48px; }
+  #pages.category .item{ padding: 36px; }
+  #pages.category .content{ margin: 0 16px; }
+  #pages.category .content h2{ font-size: 26px; }
+  #pages.category .content p{ margin-bottom: 28px; }
+  #pages.category .serial h1{ font-size: 120px; }
+}
+
+/* Specifically ensure spacing on 1440px-wide laptops/desktops */
+@media (min-width: 1440px) and (max-width: 1599.98px){
+  #pages.category{ margin-bottom: 60px; }
+}
 /*************************************
 	Mail-us section F
 **************************************/

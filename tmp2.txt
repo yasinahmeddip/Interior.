@@ -1,0 +1,24 @@
+  .banner .Section-slider .owl-carousel .owl-nav .owl-prev,
+  .banner .Section-slider .owl-carousel .owl-nav .owl-next{ font-size: 64px !important; }
+
+  /* Category cards stack */
+  .item{ padding: 24px; }
+  .serial h1{ font-size: 80px; }
+
+
+/* Collapsed navbar styles (only phones <768px) */
+@media (max-width: 767.98px){
+  .navbar-collapse{ background: rgba(0,0,0,.75); padding: 12px 16px; border-radius: 12px; }
+  /* Show all 3 category items side-by-side on phones too */
+  .cat-box{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 6px; }
+  .item{ padding: 12px; }
+  .category .content{ margin: 0 10px; }
+
+  .category .serial h1{ font-size: 40px; }
+}
+
+/* Tablet layout: show three category items in a row */
+@media (min-width: 768px) and (max-width: 991.98px){
+  .cat-box{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 8px; }
+  .item{ padding: 16px; }
+

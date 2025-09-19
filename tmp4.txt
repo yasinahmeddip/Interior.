@@ -1,0 +1,91 @@
+  .cat-box{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 8px; }
+  .item{ padding: 16px; }
+  .category .content{ margin: 0 12px; }
+  .category .content h2{ font-size: 22px; }
+  .category .content p{ margin-bottom: 28px; }
+  .category .serial h1{ font-size: 52px; }
+}
+
+/* Laptop (≈1024px, Bootstrap lg: 992–1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .cat-box{ display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; }
+  .item{ padding: 20px; }
+  .category .content{ margin: 0 16px; }
+  .category .content h2{ font-size: 24px; }
+  .category .content p{ margin-bottom: 32px; }
+  .category .serial h1{ font-size: 60px; }
+}
+
+/* Mobile (≤ 576px) */
+@media (max-width: 575.98px){
+  header{ padding: 4px 0; }
+  .banner, .slide, .slider1, .slider2, .Content{ height: 60vh; }
+  .Content{ margin-right: 0; }
+  .banner .Section-slider .owl-carousel .owl-nav .owl-prev,
+  .banner .Section-slider .owl-carousel .owl-nav .owl-next{ display:none; }
+  .slider-2{ padding: 48px 0; }
+  .Insta-area img{ margin: 10px; max-width: 30%; height: auto; display: inline-block; }
+  .navbar .nav-link{ padding: 2px 6px; font-size: 13px; }
+}
+
+/* Instagram section */
+.Insta-area{ display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: nowrap; }
+.insta-images{ display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: nowrap; }
+.insta-images img{ margin: 0; flex: 0 0 auto; width: clamp(72px, 22vw, 140px); height: auto; display: block; }
+
+/* Mobile S/M/L: heading on top, images below in one row */
+@media (max-width: 767.98px){
+  .Insta-area{ flex-direction: column; gap: 12px; }
+  .insta-images{ justify-content: center; }
+  .insta-images img{ width: clamp(64px, 28vw, 120px); }
+}
+
+/* Large desktop / 4K (accounts for OS scaling) */
+@media (min-width: 1900px){
+  header{ padding: 14px 0; }
+  .navbar-brand img{ height: 38px; }
+  .nav-item{ margin: 0 12px; }
+  .navbar .nav-link{ font-size: 18px; padding: 6px 12px; }
+  .d-flex a{ font-size: 18px; }
+}
+/*************************************
+	Mail-us section F
+**************************************/
+.mail-us{
+	background: #001D38;
+}
+.mail{
+	padding: 80px 0px;
+	border-bottom: 1px solid #334A60;
+}
+.mail h3, h2, h6{
+	color: white;
+}
+.mail h1, h2{
+	font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 52px;
+    margin-bottom: 0;
+}
+.mail h3{
+	width: 60%;
+}
+.mail h3 span{
+color: #FFD35A;
+}
+.mails{
+	text-align: end;
+}
+/*************************************
+	Address section 
+**************************************/
+.address{
+	padding: 80px 0px;
+}
+
+.address h3{
+	color: white;
+	margin-bottom: 30px;
+}
+.add li, .adds li{
